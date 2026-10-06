@@ -1,0 +1,10 @@
+Spectrogram panels (top to bottom):
+  - 1. Original (clean)
+  - 2. Corrupted (+noise)
+  - 3. After LMS filter
+  - 4. After RLS filter
+
+X axis: time (seconds), 0 to 2.0 s
+Y axis: 0 to 2000 Hz (dark = quiet, bright = loud)
+Brighter means louder. Compare panel 2 (corrupted) with
+panels 3/4 (cleaned): darkened low-frequency bands = noise removed.
